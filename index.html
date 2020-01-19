@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Luxury Prison</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet"> 
+</head>
+
+<body>
+    <h1>Luxury Prison</h1>
+    <img src="images/banner.png">
+    <div class="flex-container">
+        <ul>
+            <li><a href="https://www.luxuryprison.bandcamp.com">Bandcamp</a></li>
+            <li><a href="https://open.spotify.com/artist/1pAK5HJBf6bpuWFnR4cBBB">Spotify</a></li>
+            <li><a href="https://music.apple.com/us/artist/luxury-prison/1447572194">Apple Music</a></li>
+        </ul>
+        <form name="mailinglist" method="POST" action="/" data-netlify="true" netlify-honeypot="bot-field">
+            <div hidden aria-hidden="true">
+                <label>
+                  Don’t fill this out if you're human: 
+                  <input name="bot-field" />
+                </label>
+              </div>
+            <input type="email" name="email" required /><br>
+            <button type="submit">Join mailing list</button>
+        </form>
+    </div>
+</body>
+
+</html>
